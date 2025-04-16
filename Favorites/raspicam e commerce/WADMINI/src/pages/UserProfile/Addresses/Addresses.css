@@ -1,0 +1,109 @@
+.address-section-container {
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.add-address-btn-container button {
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #3a3a3a;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.add-address-btn-container button:hover {
+  cursor: pointer;
+  background-color: #4d4d4d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-address-btn-container .plus {
+  font-size: 1.2rem;
+}
+
+.profile-address-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+}
+
+.address-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.address-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.address-card .name {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.address-card .address,
+.address-card .phone {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+}
+
+.address-card span {
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.address-btn-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.address-btn-container > button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.address-btn-container > .edit-btn {
+  background-color: #3a5c8f;
+  color: white;
+}
+
+.address-btn-container > .delete-btn {
+  background-color: #8f3a3a;
+  color: white;
+}
+
+.address-btn-container > button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.no-address {
+  text-align: center;
+  color: #888;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}

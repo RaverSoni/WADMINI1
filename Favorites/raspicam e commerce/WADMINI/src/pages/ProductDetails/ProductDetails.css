@@ -1,0 +1,22 @@
+.product-details-container {
+  background: var(--dark-bg);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.product-details-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .product-details-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+}

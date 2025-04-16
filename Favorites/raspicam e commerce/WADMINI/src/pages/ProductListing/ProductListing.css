@@ -1,0 +1,26 @@
+.product-listing-page {
+  background: var(--dark-bg);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.listing-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .listing-container {
+    grid-template-columns: 280px 1fr;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .listing-container {
+    gap: 2rem;
+  }
+}
