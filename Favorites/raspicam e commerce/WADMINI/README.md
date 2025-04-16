@@ -48,13 +48,13 @@ E-commerce website for a sneaker brand "SneakerHub" built in ReactJs.
 Clone the project
 
 ```bash
-  git clone https://github.com/Potdar09/Wad-Mini-Project.git
+  git clone https://github.com/RaverSoni/Wad-Mini-Project.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd react-sneakers-app
+  cd react-robotics-app
 ```
 
 Install dependencies
@@ -72,4 +72,4 @@ Start the server
 
 ## Authors
 
-- Aryan Potdar
+- Ribhav Soni
